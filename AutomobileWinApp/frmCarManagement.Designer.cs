@@ -48,101 +48,102 @@ namespace AutomobileWinApp
             btnDelete = new Button();
             dgvCarList = new DataGridView();
             btnClose = new Button();
+            label1 = new Label();
             ((System.ComponentModel.ISupportInitialize)dgvCarList).BeginInit();
             SuspendLayout();
             // 
             // lbCarID
             // 
             lbCarID.AutoSize = true;
-            lbCarID.Location = new Point(102, 58);
+            lbCarID.Location = new Point(89, 44);
             lbCarID.Name = "lbCarID";
-            lbCarID.Size = new Size(50, 20);
+            lbCarID.Size = new Size(39, 15);
             lbCarID.TabIndex = 0;
             lbCarID.Text = "Car ID";
             // 
             // lbCarName
             // 
             lbCarName.AutoSize = true;
-            lbCarName.Location = new Point(102, 101);
+            lbCarName.Location = new Point(89, 76);
             lbCarName.Name = "lbCarName";
-            lbCarName.Size = new Size(75, 20);
+            lbCarName.Size = new Size(60, 15);
             lbCarName.TabIndex = 1;
             lbCarName.Text = "Car Name";
             // 
             // lbManufacturer
             // 
             lbManufacturer.AutoSize = true;
-            lbManufacturer.Location = new Point(102, 142);
+            lbManufacturer.Location = new Point(89, 106);
             lbManufacturer.Name = "lbManufacturer";
-            lbManufacturer.Size = new Size(97, 20);
+            lbManufacturer.Size = new Size(79, 15);
             lbManufacturer.TabIndex = 2;
             lbManufacturer.Text = "Manufacturer";
             // 
             // lbPrice
             // 
             lbPrice.AutoSize = true;
-            lbPrice.Location = new Point(506, 58);
+            lbPrice.Location = new Point(443, 44);
             lbPrice.Name = "lbPrice";
-            lbPrice.Size = new Size(41, 20);
+            lbPrice.Size = new Size(33, 15);
             lbPrice.TabIndex = 3;
             lbPrice.Text = "Price";
             // 
             // lbReleaseYear
             // 
             lbReleaseYear.AutoSize = true;
-            lbReleaseYear.Location = new Point(506, 101);
+            lbReleaseYear.Location = new Point(443, 76);
             lbReleaseYear.Name = "lbReleaseYear";
-            lbReleaseYear.Size = new Size(101, 20);
+            lbReleaseYear.Size = new Size(78, 15);
             lbReleaseYear.TabIndex = 4;
             lbReleaseYear.Text = "Released Year";
             // 
             // txtCarName
             // 
-            txtCarName.Location = new Point(210, 98);
+            txtCarName.Location = new Point(184, 74);
             txtCarName.Margin = new Padding(3, 2, 3, 2);
             txtCarName.Name = "txtCarName";
-            txtCarName.Size = new Size(197, 27);
+            txtCarName.Size = new Size(173, 23);
             txtCarName.TabIndex = 5;
             // 
             // txtPrice
             // 
             txtPrice.HideSelection = false;
-            txtPrice.Location = new Point(614, 54);
+            txtPrice.Location = new Point(537, 40);
             txtPrice.Margin = new Padding(3, 2, 3, 2);
             txtPrice.Name = "txtPrice";
-            txtPrice.Size = new Size(197, 27);
+            txtPrice.Size = new Size(173, 23);
             txtPrice.TabIndex = 6;
             // 
             // txtManufacturer
             // 
-            txtManufacturer.Location = new Point(210, 140);
+            txtManufacturer.Location = new Point(184, 105);
             txtManufacturer.Margin = new Padding(3, 2, 3, 2);
             txtManufacturer.Name = "txtManufacturer";
-            txtManufacturer.Size = new Size(197, 27);
+            txtManufacturer.Size = new Size(173, 23);
             txtManufacturer.TabIndex = 7;
             // 
             // txtCarID
             // 
-            txtCarID.Location = new Point(210, 54);
+            txtCarID.Location = new Point(184, 40);
             txtCarID.Margin = new Padding(3, 2, 3, 2);
             txtCarID.Name = "txtCarID";
-            txtCarID.Size = new Size(197, 27);
+            txtCarID.Size = new Size(173, 23);
             txtCarID.TabIndex = 8;
             // 
             // txtReleaseYear
             // 
-            txtReleaseYear.Location = new Point(614, 98);
+            txtReleaseYear.Location = new Point(537, 74);
             txtReleaseYear.Margin = new Padding(3, 2, 3, 2);
             txtReleaseYear.Name = "txtReleaseYear";
-            txtReleaseYear.Size = new Size(197, 27);
+            txtReleaseYear.Size = new Size(173, 23);
             txtReleaseYear.TabIndex = 9;
             // 
             // btnNew
             // 
-            btnNew.Location = new Point(420, 192);
+            btnNew.Location = new Point(368, 144);
             btnNew.Margin = new Padding(3, 2, 3, 2);
             btnNew.Name = "btnNew";
-            btnNew.Size = new Size(116, 29);
+            btnNew.Size = new Size(102, 22);
             btnNew.TabIndex = 11;
             btnNew.Text = "New";
             btnNew.UseVisualStyleBackColor = true;
@@ -150,10 +151,10 @@ namespace AutomobileWinApp
             // 
             // btnLoad
             // 
-            btnLoad.Location = new Point(210, 192);
+            btnLoad.Location = new Point(184, 144);
             btnLoad.Margin = new Padding(3, 2, 3, 2);
             btnLoad.Name = "btnLoad";
-            btnLoad.Size = new Size(116, 29);
+            btnLoad.Size = new Size(102, 22);
             btnLoad.TabIndex = 12;
             btnLoad.Text = "Load";
             btnLoad.UseVisualStyleBackColor = true;
@@ -161,10 +162,10 @@ namespace AutomobileWinApp
             // 
             // btnDelete
             // 
-            btnDelete.Location = new Point(640, 192);
+            btnDelete.Location = new Point(560, 144);
             btnDelete.Margin = new Padding(3, 2, 3, 2);
             btnDelete.Name = "btnDelete";
-            btnDelete.Size = new Size(116, 29);
+            btnDelete.Size = new Size(102, 22);
             btnDelete.TabIndex = 13;
             btnDelete.Text = "Delete";
             btnDelete.UseVisualStyleBackColor = true;
@@ -173,34 +174,44 @@ namespace AutomobileWinApp
             // dgvCarList
             // 
             dgvCarList.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dgvCarList.Location = new Point(12, 238);
+            dgvCarList.Location = new Point(10, 178);
             dgvCarList.Margin = new Padding(3, 2, 3, 2);
             dgvCarList.Name = "dgvCarList";
             dgvCarList.ReadOnly = true;
             dgvCarList.RowHeadersWidth = 51;
             dgvCarList.RowTemplate.Height = 29;
             dgvCarList.SelectionMode = DataGridViewSelectionMode.FullRowSelect;
-            dgvCarList.Size = new Size(905, 188);
+            dgvCarList.Size = new Size(792, 141);
             dgvCarList.TabIndex = 14;
             dgvCarList.CellContentClick += dgvCarList_CellContentClick;
             dgvCarList.CellDoubleClick += dgvCarList_CellDoubleClick;
             // 
             // btnClose
             // 
-            btnClose.Location = new Point(420, 434);
+            btnClose.Location = new Point(368, 326);
             btnClose.Margin = new Padding(3, 2, 3, 2);
             btnClose.Name = "btnClose";
-            btnClose.Size = new Size(116, 29);
+            btnClose.Size = new Size(102, 22);
             btnClose.TabIndex = 15;
             btnClose.Text = "Close";
             btnClose.UseVisualStyleBackColor = true;
             btnClose.Click += btnClose_Click;
             // 
+            // label1
+            // 
+            label1.AutoSize = true;
+            label1.Location = new Point(379, 15);
+            label1.Name = "label1";
+            label1.Size = new Size(38, 15);
+            label1.TabIndex = 16;
+            label1.Text = "label1";
+            // 
             // frmCarManagement
             // 
-            AutoScaleDimensions = new SizeF(8F, 20F);
+            AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(932, 475);
+            ClientSize = new Size(816, 356);
+            Controls.Add(label1);
             Controls.Add(btnClose);
             Controls.Add(dgvCarList);
             Controls.Add(btnDelete);
@@ -244,5 +255,6 @@ namespace AutomobileWinApp
         private DataGridView dgvCarList;
         private Button button4;
         private Button btnClose;
+        private Label label1;
     }
 }

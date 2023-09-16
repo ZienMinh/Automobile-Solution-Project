@@ -24,6 +24,7 @@ namespace AutomobileWinApp
 
         private void frmCarManagement_Load(object sender, EventArgs e)
         {
+            label1.Text = "HELLO KU EM";
             btnDelete.Enabled = false;
             LoadCarList();
             dgvCarList.CellDoubleClick += dgvCarList_CellDoubleClick;
@@ -136,7 +137,7 @@ namespace AutomobileWinApp
             };
             if (frmCarDetails.ShowDialog() == DialogResult.OK)
             {
-                
+
                 //Set focus car inserted
                 source.Position = source.Count - 1;
             }
