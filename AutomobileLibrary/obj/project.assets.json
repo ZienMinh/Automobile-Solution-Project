@@ -8,19 +8,19 @@
     "net6.0": []
   },
   "packageFolders": {
-    "C:\\Users\\GMT\\.nuget\\packages\\": {}
+    "C:\\Users\\Harris\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\PRN211\\PRN_Code\\AutomobileSolution\\AutomobileLibrary\\AutomobileLibrary.csproj",
+      "projectUniqueName": "E:\\Automobile_Solution\\AutomobileLibrary\\AutomobileLibrary.csproj",
       "projectName": "AutomobileLibrary",
-      "projectPath": "D:\\PRN211\\PRN_Code\\AutomobileSolution\\AutomobileLibrary\\AutomobileLibrary.csproj",
-      "packagesPath": "C:\\Users\\GMT\\.nuget\\packages\\",
-      "outputPath": "D:\\PRN211\\PRN_Code\\AutomobileSolution\\AutomobileLibrary\\obj\\",
+      "projectPath": "E:\\Automobile_Solution\\AutomobileLibrary\\AutomobileLibrary.csproj",
+      "packagesPath": "C:\\Users\\Harris\\.nuget\\packages\\",
+      "outputPath": "E:\\Automobile_Solution\\AutomobileLibrary\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\GMT\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Harris\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -61,7 +61,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
       }
     }
   }

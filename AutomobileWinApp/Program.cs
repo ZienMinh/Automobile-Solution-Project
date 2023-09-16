@@ -12,7 +12,7 @@ namespace AutomobileWinApp
             // see https://aka.ms/applicationconfiguration.
             ApplicationConfiguration.Initialize();
             Application.Run(new frmCarManagement());
-            Application.Run(new frmCarDetails());
+        
         }
     }
 }
