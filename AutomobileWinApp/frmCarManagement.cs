@@ -25,6 +25,7 @@ namespace AutomobileWinApp
         private void frmCarManagement_Load(object sender, EventArgs e)
         {
             btnDelete.Enabled = false;
+            LoadCarList();
             dgvCarList.CellDoubleClick += dgvCarList_CellDoubleClick;
         }
 
@@ -135,10 +136,11 @@ namespace AutomobileWinApp
             };
             if (frmCarDetails.ShowDialog() == DialogResult.OK)
             {
-                LoadCarList();
+                
                 //Set focus car inserted
                 source.Position = source.Count - 1;
             }
+            LoadCarList();
         }
 
         private void btnDelete_Click(object sender, EventArgs e)
